@@ -10,8 +10,6 @@ $( document ).on( 'click', '#searchNow', function(){
     success: function( data ){
       // successfully hit API
       console.log( 'successful API hit:', data );
-      // show results
-      // '.Search' is the array of movie objects returned by OMDB
     } // end success
   }); //end ajax
 }); // end click on search button
